@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #202124;
+}
+.cont-iconos-arriba {
+  height: 7vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 12px;
+}
+.icono-1{
+  width: 30px;
+  background-color: yellow;
+  height: 30px;
+  border-radius: 4px;
+}
+.icono-2{
+  width: 30px;
+  background-color: red;
+  height: 30px; 
+  margin-left: 3px;
+  border-radius: 4px;
+}
+.cont-cuadrados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cuadrados-llamada-arriba {
+  background-color: #3b4043;
+  height: 35vh;
+  width: 19%;
+  margin: 3px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foto-de-perfil {
+  height: 18vh;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.foto-de-perfil:hover {
+  opacity: 0.7;
+}
+.foto-de-perfil:hover:active {
+  opacity: 1;
+}
+.cont-cuadrados-abajo {
+  display: flex;
+  padding: 0 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cuadrados-llamada {
+  background-color: #3b4043;
+  height: 40vh;
+  width: 24%;
+  margin: 3px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont-botones {
+  height: 1vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+.no-colgar {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
+}
+.col-nor {
+  background-color: #3b4043;
+  transition: 0.1s;
+  border-style: none;
+}
+.col-nor:hover {
+  background-color: #464b4f;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.col-nor:active {
+  box-shadow: none;
+}
+
+.colgar {
+  height: 40px;
+  width: 80px;
+  border-radius: 100px;
+}
+.otro-col {
+  background-color: #bf0026;
+  transition: 0.1s;
+  border-style: none;
+}
+.otro-col:hover {
+  background-color: #ff0032;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.otro-col:active {
+  box-shadow: none;
+}
